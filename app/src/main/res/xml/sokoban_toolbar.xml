@@ -1,0 +1,36 @@
+<android.support.v7.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sokoban_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/sokoban_header"
+    app:layout_collapseMode="pin"
+    app:titleTextColor="@android:color/white"
+    app:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sokoban_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Title"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"/>
+
+        <ImageButton
+            android:id="@+id/sokoban_toolbar_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_level_previous"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

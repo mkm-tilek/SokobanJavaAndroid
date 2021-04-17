@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Viewer" >
+    <item android:id="@+id/music"
+        android:title="Music On/Off"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_music_off"/>
+    <item android:id="@+id/restart"
+        android:title="Restart level"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_level_restart"/>
+    <item android:id="@+id/next"
+        android:title="Restart level"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_next_level"
+        app:showAsAction="always" />
+</menu>
