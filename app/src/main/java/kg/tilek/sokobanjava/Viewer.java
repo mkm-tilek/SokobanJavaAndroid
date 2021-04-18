@@ -88,6 +88,10 @@ public class Viewer extends AppCompatActivity {
             case R.id.restart:
                 controller.restartLevel();
                 break;
+            case R.id.exit:
+                stopMusic();
+                finish();
+                break;
             case R.id.music:
                 if (musicPlaying){
                     stopMusic();

@@ -12,9 +12,13 @@
         android:title="Restart level"
         android:orderInCategory="200"
         android:icon="@drawable/ic_level_restart"/>
+    <item android:id="@+id/exit"
+        android:title="Exit"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_exit"/>
     <item android:id="@+id/next"
         android:title="Restart level"
-        android:orderInCategory="300"
+        android:orderInCategory="400"
         android:icon="@drawable/ic_next_level"
         app:showAsAction="always" />
 </menu>
